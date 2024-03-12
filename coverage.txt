@@ -1,0 +1,21 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.6, pytest-8.1.1, pluggy-1.4.0
+rootdir: /home/tumon/Applied ML HW 3
+plugins: cov-4.1.0
+collected 9 items
+
+test.py .........                                                        [100%]LogisticRegression()
+
+
+---------- coverage: platform linux, python 3.11.6-final-0 -----------
+Name       Stmts   Miss  Cover
+------------------------------
+app.py        20      1    95%
+score.py      10      0   100%
+test.py       71      1    99%
+train.py      47     47     0%
+------------------------------
+TOTAL        148     49    67%
+
+
+============================== 9 passed in 8.42s ===============================
